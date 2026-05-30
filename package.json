@@ -1,0 +1,19 @@
+{
+  "name": "artifact2",
+  "version": "1.0.0",
+  "description": "A Node.js tutorial server using Express that serves a 'Hello world' endpoint and a 'Good evening' endpoint.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
