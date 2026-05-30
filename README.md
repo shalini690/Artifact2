@@ -37,11 +37,23 @@ This runs the `start` script defined in `package.json`, which executes `node src
 Example requests:
 
 ```bash
-curl http://localhost:3000/
-# Hello world
+curl -s http://localhost:3000/
+```
 
-curl http://localhost:3000/good-evening
-# Good evening
+Response:
+
+```text
+Hello world
+```
+
+```bash
+curl -s http://localhost:3000/good-evening
+```
+
+Response:
+
+```text
+Good evening
 ```
 
 ## Project structure
